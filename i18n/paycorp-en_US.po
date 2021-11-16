@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayCorp\n"
+"POT-Creation-Date: 2021-09-21 22:39+0600\n"
+"PO-Revision-Date: 2021-09-21 22:40+0600\n"
+"Last-Translator: olegisk <oleg@example.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_e(sprintf;__(sprintf\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-wc-gateway-paycorp.php:92
+#: ../includes/class-wc-gateway-paycorp.php:308
+msgid "Paycorp International/Bancstac IPG"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:168
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:170
+msgid "Enable plugin"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:174
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:177
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:180
+msgid "Paycorp Payment Gateway"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:183
+msgid "Description"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:186
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:189
+msgid "This is a secure purchase through Paycorp Payment Gateway."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:192
+msgid "PG Domain"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:194
+msgid "IPG data are submitting to this URL"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:201
+msgid "\"PG Domain\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:208
+msgid "PG Client Id"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:210
+#: ../includes/class-wc-gateway-paycorp.php:226
+#: ../includes/class-wc-gateway-paycorp.php:242
+msgid "Unique ID for the merchant acc, given by bank."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:217
+msgid "\"PG Client Id\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:224
+msgid "PG Client Id (tokenization)"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:233
+msgid "\"PG Client Id (tokenization)\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:240
+msgid "PG Customer Id"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:249
+msgid "\"PG Customer Id\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:256
+msgid "HMAC Secret"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:258
+#: ../includes/class-wc-gateway-paycorp.php:274
+msgid "Collection of mix integers and strings , given by bank."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:265
+msgid "\"HMAC Secret\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:272
+msgid "Auth Token"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:281
+msgid "\"Auth Token\" field can't be empty."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:288
+msgid "PG Transaction Type"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:295
+msgid "Indicates the transaction type, given by bank"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:311
+msgid "You have made a successful secure transaction through Paycorp Gateway"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:498
+msgid "Payment method successfully added."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:780
+msgid "There was a problem adding the card."
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:787
+#: ../includes/class-wc-gateway-paycorp.php:896
+#, php-format
+msgid "Transaction success. Transaction Id: %s"
+msgstr ""
+
+#: ../includes/class-wc-gateway-paycorp.php:941
+msgid "Payment Info"
+msgstr ""
+
+#: ../includes/class-wc-paycorp-subscriptions.php:113
+#, php-format
+msgid "Card: %s"
+msgstr ""
+
+#: ../includes/class-wc-paycorp-subscriptions.php:171
+msgid "Card Token ID"
+msgstr ""
+
+#: ../includes/class-wc-paycorp-subscriptions.php:196
+msgid "Please select"
+msgstr ""
+
+#: ../includes/class-wc-paycorp-subscriptions.php:306
+#, php-format
+msgid "Failed to charge \"%1$s\". %2$s."
+msgstr ""
+
+#: ../includes/class-wc-paycorp-subscriptions.php:341
+#, php-format
+msgid "Via %1$s card ending in %2$s/%3$s"
+msgstr ""
+
+#: ../paycorp-woocommerce.php:46
+msgid "Settings"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:17
+msgid "TXN Reference"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:23
+msgid "Response code"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:29
+msgid "Response text"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:35
+msgid "Auth code"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:41
+msgid "Settlement date"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:47
+msgid "Card type"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:53
+msgid "Card holder"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:59
+msgid "Card number"
+msgstr ""
+
+#: ../templates/admin/payment-info.php:65
+msgid "Card expiry"
+msgstr ""

@@ -1,0 +1,5 @@
+.wpimage {
+	margin: 0;
+	display: flex;
+	justify-content: left;
+}
